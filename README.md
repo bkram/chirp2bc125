@@ -14,6 +14,14 @@ usage: chirp2bc125.py [-h] --input INPUT_FILE --output OUTPUT_FILE [--start-numb
 chirp2bc125.py: error: the following arguments are required: --input, --output
 ```
 
+## Command flags
+
+```bash
+./chirp2bc125.py                                                   
+usage: chirp2bc125.py [-h] --input INPUT_FILE --output OUTPUT_FILE [--start-number START_NUMBER]
+chirp2bc125.py: error: the following arguments are required: --input, --output
+```
+
 ## Example conversion
 
 ```bash
