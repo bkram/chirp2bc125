@@ -1,10 +1,18 @@
 # chirp2bc125
 
-Convert a Chirp csv file to bc125 file to be able to import them on a Bearcat scanner.
+Convert a Chirp csv file to bc125 csv file so you can import it on a Bearcat scanner.
 
-Chirp <https://chirp.danplanet.com/projects/chirp/wiki/Home>
+- Chirp <https://chirp.danplanet.com/projects/chirp/wiki/Home>
 
-bc125 <https://github.com/fdev/bc125csv>
+- bc125 <https://github.com/fdev/bc125csv>
+
+## Command flags
+
+```bash
+./chirp2bc125.py                                                   
+usage: chirp2bc125.py [-h] --input INPUT_FILE --output OUTPUT_FILE [--start-number START_NUMBER]
+chirp2bc125.py: error: the following arguments are required: --input, --output
+```
 
 ## Example conversion
 
